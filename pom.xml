@@ -10,6 +10,8 @@
         <module>springcloud-study-provider-dept-8001</module>
         <module>springcloud-study-consumer-dept-80</module>
         <module>springcloud-study-euraka-7001</module>
+        <module>springcloud-study-euraka-7002</module>
+        <module>springcloud-study-euraka-7003</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
@@ -76,4 +78,28 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <!--finalName 父工程名称-->
+        <finalName>spring-cloud-study</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <!--过滤开启-->
+                <filtering>true</filtering>
+            </resource>
+
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <delimiters>
+                        <delimit>$</delimit>
+                    </delimiters>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

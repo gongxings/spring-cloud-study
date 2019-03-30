@@ -40,5 +40,19 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true #开启驼峰命名
     cache-enabled: true #开启二级缓存
+#客户端注册进eureka服务列表
+eureka:
+  client:
+    service-url:
+      defaultZone: eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    #服务实例名称修改
+    instance-id: study-springcloud-dept8001
+    #访问路径显示IP地址
+    prefer-ip-address: true
 
-
+info:
+  app.name: study-springcloud-micoservices
+  company.name: www.gxs.com
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
