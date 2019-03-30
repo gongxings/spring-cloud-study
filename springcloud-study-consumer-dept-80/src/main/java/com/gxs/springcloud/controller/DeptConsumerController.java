@@ -18,8 +18,11 @@ import java.util.List;
 @RestController
 public class DeptConsumerController {
 
-    private static final String REST_URL_PREFIX="http://localhost:8001";
-
+    //private static final String REST_URL_PREFIX="http://localhost:8001";
+    /**
+     * 注册再EurekaServer中的微服务名称
+     */
+    private static final String REST_URL_PREFIX="http://STUDY-SPRINGCLOUD-DEPT";
     @Autowired
     private RestTemplate restTemplate;
 

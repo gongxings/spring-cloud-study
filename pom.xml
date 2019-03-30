@@ -12,6 +12,8 @@
         <module>springcloud-study-euraka-7001</module>
         <module>springcloud-study-euraka-7002</module>
         <module>springcloud-study-euraka-7003</module>
+        <module>springcloud-study-provider-dept-8002</module>
+        <module>springcloud-study-provider-dept-8003</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
