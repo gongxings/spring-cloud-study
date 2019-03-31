@@ -1,5 +1,8 @@
 # Spring Cloud学习笔记
 
+CSDN博客地址：https://blog.csdn.net/qq_18547653/article/details/88934787
+博客能看到图片，效果比较好
+
 ![](images/springcloud架构图.png)
 
 ## 一、工程环境搭建
