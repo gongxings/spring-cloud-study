@@ -14,6 +14,12 @@
         <module>springcloud-study-euraka-7003</module>
         <module>springcloud-study-provider-dept-8002</module>
         <module>springcloud-study-provider-dept-8003</module>
+        <module>springcloud-study-consumer-dept-feign</module>
+        <module>springcloud-study-provider-dept-hystrix-8001</module>
+        <module>springcloud-study-consumer-hystrix-dashboard</module>
+        <module>springcloud-study-zuul-gateway-9527</module>
+        <module>springcloud-study-config-3344</module>
+        <module>springcloud-study-config-client-3355</module>
     </modules>
     <packaging>pom</packaging>
     <properties>

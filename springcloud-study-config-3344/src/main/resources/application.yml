@@ -1,0 +1,13 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: springcloud-study-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gongxings/springcloud-study-config.git
+          search-paths: config-repo
+          username: gongxings  #账号密码写真实的快一些我觉得，不使用也能访问有点慢
+          password: gxsh0318
